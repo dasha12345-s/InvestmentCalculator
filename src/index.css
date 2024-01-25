@@ -14,21 +14,20 @@ body {
   min-height: 100vh;
 }
 
-#header {
+header {
   text-align: center;
-  margin: 3rem auto;
 }
 
-
-#header img {
-  width: 5rem;
-  height: 5rem;
+header img {
+  width: 6rem;
   object-fit: contain;
-  background-color: transparent;
+  margin: 2rem auto 0rem auto;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
 }
 
-#header h1 {
+#header h2 {
   font-size: 1.5rem;
+  margin: 0px;
 }
 
 #user-input {
